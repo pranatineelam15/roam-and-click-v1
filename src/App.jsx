@@ -1,11 +1,17 @@
 import { useState } from 'react'
+import React from 'react'
 import './App.css'
+import Header from './components/Main/Header.jsx'
+import Hero from './components/Main/Hero.jsx'
+import Footer from './components/Main/Footer.jsx'
+
 
 function App() {
-
   return (
     <>
-      <h1 className="text-3xl font-bold text-blue-500">Hello world!</h1>
+    <Header/>
+    <Hero/>
+    <Footer/>
     </>
   )
 }
